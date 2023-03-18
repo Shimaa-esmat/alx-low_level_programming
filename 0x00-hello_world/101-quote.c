@@ -4,9 +4,8 @@
  * main - Entry point
  *
  * Description: print a qoute using write function
- *     ssize_t write(int fd, const void *buf, size_t count);
  *
- * Return: 1 (not Success).
+ * Return: 1 (error).
 */
 
 int main(void)
@@ -16,4 +15,3 @@ int main(void)
 	write(1, quo, 59);
 	return (1);
 }
-
