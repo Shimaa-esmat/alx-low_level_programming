@@ -1,5 +1,4 @@
-include "main"
-
+include "main.h"
 /**
  * print_to_98 - print n to 98 counts
  *           seperated by comma, followed
